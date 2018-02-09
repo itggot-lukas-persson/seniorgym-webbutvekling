@@ -16,6 +16,13 @@ body {
 .header {
     grid-column: 1/11;
     grid-row: 1/2;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+
+.header i.material-icons {
+    font-size: 8em;
+    grid-column: 9/10;
 }
 
 h1 {
@@ -26,3 +33,29 @@ h1 {
     font-size: 45px;
 }
 
+main{
+    background-color: white;
+    height: 100%;
+}
+main i.material-icons{
+    font-size: 8em;
+}
+
+.menu i.material-icons{    
+    font-size: 8em;
+}
+
+.menu{
+    width: 80vw;
+    height: 100vh;
+    position: absolute;
+    background: white;
+    display: none;
+}
+
+.show{
+    display: block;
+}
+.fade{
+    background-color: rgb(100,100,100)
+}
