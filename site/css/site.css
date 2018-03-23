@@ -10,7 +10,7 @@ body {
     grid-template-rows: repeat(12, 1fr);
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
+    background-color:white;
 }
 
 h1 {
@@ -39,7 +39,7 @@ main {
     height: 80vh;
     position: absolute;
     display: none;
-    background-color: rgb(05, 202, 220);
+    background-color: rgb(105, 202, 220);
 }
 
 .menu li {
@@ -88,7 +88,7 @@ main {
     grid-row: 8/9;
     grid-column: 7/8;
     margin-left: 122px;
-    margin-top: 28px;
+    margin-top: 55px;
 
 }
 
@@ -120,7 +120,7 @@ main {
     grid-row: 8/9;
     grid-column: 7/8;
     margin-left: 122px;
-    margin-top: 28px;
+    margin-top: 55px;
 }
 
 .mer2 p {
